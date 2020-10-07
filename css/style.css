@@ -7,7 +7,7 @@
 /* debug */
 [class*="col-"] {
   border: 1px solid black;
-  min-height: 20px;
+  min-height: 40px;
 }
 
 /* navbar impostazioni */
@@ -123,6 +123,7 @@ h1 + p{
 /* sez con loghi */
 .sez-back-gray{
   background-color: #f3f5f9;
+  padding: 30px 0;
 }
 
 h5{
@@ -131,4 +132,31 @@ h5{
 
 .sez-back-gray > .container > .row:nth-child(2){
   margin: 20px auto;
+}
+
+/* sezione Deploy and scale seamlessly */
+#box-ul{
+  width: 22%;
+  padding-left: 5%;
+}
+
+#list-sez3{
+  list-style: none;
+  text-align: left;
+  color: gray;
+  margin-top: 10px;
+  border-left: 1px solid gray;
+  padding: 13px;
+  line-height: 28px;
+}
+
+.nested{
+  text-align: left;
+}
+
+/* sezione Designed for developes */
+
+#droplet{
+  width: 50%;
+  margin: 30px 20px;
 }
