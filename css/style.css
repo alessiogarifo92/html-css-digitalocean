@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* debug */
+[class*="col-"] {
+  border: 1px solid black;
+  min-height: 80px;
+}
+
+/* navbar impostazioni */
+.navbar-default{
+  border: none;
+  background-color: white;
+}
+
+.navbar-header{
+  width: 20%;
+}
+
+.navbar-brand > img{
+  width: 65%;
+}
+
+#bs-example-navbar-collapse-1 ul:first-child{
+  margin-left: 15%;
+}
+
+#sign-up{
+  width: 100px;
+  padding: 10px;
+  color: blue;
+  border-color: blue;
+  margin-top: 3px;
+}
+
+/* sez 1 */
+
+#back-sez1{
+  background-color: #0069ff;
+  /* debug */
+  height: 200px;
+}
