@@ -119,3 +119,16 @@ h1 + p{
   background-color: lightblue;
   color: white;
 }
+
+/* sez con loghi */
+.sez-back-gray{
+  background-color: #f3f5f9;
+}
+
+h5{
+  color: gray;
+}
+
+.sez-back-gray > .container > .row:nth-child(2){
+  margin: 20px auto;
+}
