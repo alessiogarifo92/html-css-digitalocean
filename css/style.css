@@ -1,14 +1,19 @@
+/* comandi generali */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+h2{
+  margin-bottom: 30px;
+}
+
 /* debug */
-[class*="col-"] {
+/* [class*="col-"] {
   border: 1px solid black;
   min-height: 40px;
-}
+} */
 
 /* navbar impostazioni */
 .navbar-default .navbar-nav > li > a{
@@ -183,6 +188,12 @@ table td a{
 #droplet{
   width: 50%;
   margin: 30px 20px;
+}
+
+/* sez Development teams love DigitalOcean*/
+.centr-carosello{
+  width: 50%;
+  margin-left: 25%;
 }
 
 /* sez the features your business needs */
