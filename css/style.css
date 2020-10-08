@@ -163,6 +163,21 @@ h5{
   text-align: left;
 }
 
+/* sezione  service your customers around the world from 12 regions  */
+#tabella-background{
+background-color: #2a2a72;
+background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+color: white;
+}
+
+th{
+  width: 33%;
+}
+
+table td a{
+  color: #00fec9;
+}
+
 /* sezione Designed for developes */
 
 #droplet{
